@@ -2,7 +2,6 @@ usernames = ["sallysusan567@gmail.com", "marktooswaggy@hotmail.com", "cheyenneti
 passwords = ["FireDragon432!", "HeatedCookie448*", "Ilovecmsc355"]
 
 username_Index = -1 #variable to match password to username
-password_Index = -1 #variable to match password to username
 usernameInput = input("Please enter a username \n")
 passwordInput = ""
 correctPassword = ""
@@ -14,9 +13,9 @@ for name in usernames:
 if username_Index == -1:
     print("That username does not exist, please try again")
 if passwordInput == correctPassword:
-     print("Successfully logged in!")
+     print("Successfully logged in! \n")
 else:
-     print("That password was incorrect")
+     print("That password was incorrect \n")
 
 
     
