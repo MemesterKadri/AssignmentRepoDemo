@@ -3,8 +3,8 @@ passwords = ["FireDragon432!", "HeatedCookie448*", "Ilovecmsc355"]
 
 username_Index = -1 #variable to match password to username
 usernameInput = input("Please enter a username \n")
-passwordInput = ""
-correctPassword = ""
+passwordInput = "0"
+correctPassword = "1"
 for name in usernames:
         if name == usernameInput:
             username_Index = usernames.index(usernameInput)
