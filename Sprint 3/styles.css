@@ -1,0 +1,90 @@
+/* Global styles */
+body {
+    background: linear-gradient(to right, #00b7d7, #008cff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 100vh;
+
+  }
+  
+  /* Card container */
+  .card {
+    background: #ffffffb6;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    transition: transform 0.3s ease;
+  }
+  
+  h4 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* Inputs and selects */
+  .form-control,
+  .form-select {
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control:focus,
+  .form-select:focus {
+    border-color: #0004d7;
+    box-shadow: 0 0 0 0.2rem rgba(17, 58, 241, 0.25);
+  }
+  
+  /* Submit button */
+  .btn-primary {
+    background: #202020;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, #0004d7, #1784e9);
+  }
+  
+  /* Link text */
+  a {
+    color: #008cff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* View Patient Pop-up */ 
+  .modal-content {
+    background-color: #00457e;
+    color: #FFFFFF;
+  }
+  
+
+  /* Logout Button */
+  .btn-outline-danger {
+    color: #008cff;
+    border-color: #008cff;
+  }
+
+  .btn-outline-danger:hover {
+    background-color: #008cff;
+    color: white;
+    border-color: #008cff;
+  }
+
+
+
+  
