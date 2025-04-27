@@ -1,8 +1,9 @@
 My groupmembers are:
-- XXXX
-- XXXX
-- XXXX
-- XXXX
+- Jack Travers
+- Minh Le
+- Trang Nguyen
+- Tameem El-kaderi
+- Julian Chaoul
 
 
------------------- Fill in some information about your project under this ------------------
+The goal of VitalView was to make a software that takes healthcare vitals from a watch and displays it for both patients and providers. It will also alert users when there seems to be a high status problem
